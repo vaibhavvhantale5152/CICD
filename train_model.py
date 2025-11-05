@@ -1,4 +1,5 @@
 #import libraries
+#CICD pipeline workflow
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -135,5 +136,6 @@ with open('scores.txt', "w") as score:
     score.write("F1 Score: %2.1f%%\n" % f1_lr)
     score.write("Recall Score: %2.1f%%\n" % recall_lr)
     score.write("Precision Score: %2.1f%%\n" % prec_lr)
+
 
 
